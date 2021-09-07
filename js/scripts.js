@@ -60,12 +60,8 @@ window.addEventListener("keyup", (event)=>{
     {
         audio.volume = audio.volume + 0.1;
     }
-    else if(event.key == 'ArrowDown')
+    else (event.key == 'ArrowDown')
     {
         audio.volume = audio.volume - 0.1;
-    }
-    else if(event.key == 'Space')
-    {
-        audio.play();
     }
 });
