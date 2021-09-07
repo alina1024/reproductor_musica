@@ -55,7 +55,7 @@ vol_up_btn.addEventListener("click", () =>{
 vol_down_btn.addEventListener("click", () =>{
     audio.volume = audio.volume - 0.1;
 })
-vol_up_btn.addEventListener("keyup", (event)=>{
+window.addEventListener("keyup", (event)=>{
     if(event.key == 'ArrowUp')
     {
         audio.volume = audio.volume + 0.1;
