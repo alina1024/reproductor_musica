@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Reproductor de música</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="card">
+            <div class="image-container">
+                <p class="titulo">Vía Láctea - Zoe</p>
+                <img class="image" id="image" src="img/via lactea.jpg" alt="image">
+            </div>
+            <input type="range" id="time" min="0" max="">
+            <div class="controls-container">
+                <button id="play-pause">
+                    <i id = "play-pause-icon" class="style-btn fas fa-play-circle"></i>
+                </button>
+                <button id="stop">
+                    <i class="style-btn fas fa-stop-circle"></i>
+                </button>
+                <button id="vol-up">
+                    <i class="style-btn fas fa-volume-up"></i>
+                </button>
+                <button id="vol-down">
+                    <i class="style-btn fas fa-volume-down"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <audio id="audio" src="audio/vía lactea.mp3"></audio>
+    <script src="js/scripts.js"></script>
+</body>
+</html> 
